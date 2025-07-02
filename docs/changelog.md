@@ -4,3 +4,5 @@
 ### feat: add chapters, clips, show notes pipeline - 2025-06-18T14:20:00+05:30
 
 ### feat: add pipeline DAG and media ffmpeg handling - 2025-06-25T09:30:00+05:30
+
+### feat: add publishing, analytics, frontend pipeline editor - 2025-07-02T11:00:00+05:30
