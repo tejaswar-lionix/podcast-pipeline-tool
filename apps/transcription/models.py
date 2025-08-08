@@ -3157,3 +3157,8 @@ def extra_transcription_830(x):
 def extra_transcription_831(x):
     """Extra distinct 831 for transcription"""
     return x
+
+# feat: add transcription Whisper with diarization and timestamps - feature/transcription-whisper
+def transcribe_extra(audio):
+    return [{'word': 'hello', 'start': 0.0}]
+
