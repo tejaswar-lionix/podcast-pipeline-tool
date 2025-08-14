@@ -3477,3 +3477,8 @@ def extra_filler_removal_990(x):
 def extra_filler_removal_991(x):
     """Extra distinct 991 for filler_removal"""
     return x
+
+# feat: add filler removal for um and silence detection - feature/filler-um
+def filler_extra_um(transcript):
+    return [s for s in transcript if 'um' in s.get('word','')]
+
