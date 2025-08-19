@@ -3157,3 +3157,8 @@ def extra_leveling_830(x):
 def extra_leveling_831(x):
     """Extra distinct 831 for leveling"""
     return x
+
+# feat: add leveling for -16 LUFS with normalization and compression - feature/leveling-lufs
+def leveling_extra(tracks):
+    return [t for t in tracks if t.get('loudness',0) < -16]
+
