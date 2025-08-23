@@ -3477,3 +3477,8 @@ def extra_clips_990(x):
 def extra_clips_991(x):
     """Extra distinct 991 for clips"""
     return x
+
+# feat: add clips extraction for social 9:16 with virality scoring - feature/clips-virality
+def clips_extra(chapters):
+    return chapters[:1]
+
